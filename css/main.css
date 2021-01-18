@@ -32,6 +32,7 @@ a:hover{
     font-size:32px;
 }
 
+
 /*alignement du site #######################################################*/
 body{
     text-align:center;
@@ -64,6 +65,7 @@ header{
     display:flex;
     flex-direction: column;
     
+    
 }
 
 
@@ -74,15 +76,13 @@ header{
     align-items:center;
 }
 
+footer{
+    height:200px;
+    width:auto;
+}
 
 /*dimension des images ###################################################### */
-.foot{
-    width:auto;
-    height:auto;
-    padding:4px;
-    overflow:hidden;
-    
-}
+
 
 .logo{
     width:15%;
@@ -108,3 +108,10 @@ header{
     opacity: 0.80;
 }
 
+.foot{
+    width:auto;
+    height:100px;
+    padding:4px;
+    overflow:hidden;
+    
+}

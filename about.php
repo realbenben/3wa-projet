@@ -1,17 +1,12 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width"/>
-    <link rel="stylesheet" href="../css/presentation.css" type="text/css" />
-    <title>présentation du restaurant</title>
+    <?php include("./components/head.php"); ?>
+    <title>Pizza à emporter </title>
 </head>
 <body>
-    <header>
-
-    </header>
-    <main>
-        <h1>Pizza Mamma</h1>
+    <?php include("./components/header.php"); ?>
+   <h1>Pizza Mamma</h1>
         <div class="content">
             <article>
                 <p>Situé entre 10 et 15 minutes des gares Lille Flandres et Lille Europe, à deux pas du Palais des Beaux Arts, face aux salles de cinéma de la rue de Béthune, le restaurant Pizza Mamma demeure le lieu de rendez-vous des amoureux de la gastronomie italienne.<p>
@@ -24,15 +19,6 @@
             </article>    
             <img class="presentation" src="../src/presentation/salle_originalS.jpg">
         </div>
-    </main>
-    <footer>
-        <div class="container">
-            <div><a href="presentation.html"><img class="foot" src="../src/footer/presentation.jpg" alt="salle de restaurant"></a><a href="presentation.html">Présentation</a></div>
-            <div><a href="carte.html"><img class="foot" src="../src/footer/menu.jpg" alt="dessin pizza "></a><a href="carte.html">Menu</a></div>
-            <div><a href=""><img class="foot" src="../src/footer/emporter.jpg" alt="vespa italienne"></a><a href="">A emporter</a></div>
-            <div><a href=""><img class="foot" src="../src/footer/photo.jpg" alt="des pizzas"></a><a href="">photos</a></div>
-            <div><a href=""><img  class="foot" src="../src/footer/contacter.jpg" alt="téléphone"></a><a href="">Nous contacter</a></div>
-        </div>
-    </footer>
+    <?php include("./components/footer.php"); ?> 
 </body>
 </html>

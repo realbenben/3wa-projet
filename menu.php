@@ -1,43 +1,11 @@
 <!doctype html>
-<html lang="fr">
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="../css/carte.css" type="text/css" />
-    
-    
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <title>La carte</title>
+    <?php include("./components/head.php"); ?>
+    <title>Pizza à emporter </title>
 </head>
 <body>
-    <header>
-        <div class="navbar">
-            <a href="./mainPage.html"><img class="logo" src="../src/logo/logo_pizza.png" alt="logo pizza mamma"></a>
-            <ul>
-                <li><a href="presentation.html"> Présentation </a></li>
-                <li><a href="carte.html"> Menu </a></li>
-                <li><a href=""> emporter </a></li>
-                <li><a href=""> Photos </a></li>
-                <li class="tel"><a href=""> Contact </a><i class="fas fa-phone-alt"></i></li>
-            </ul>
-        </div>
-        <div class="title">
-            <img class="svg" src="../src/menu/pizz-svg.png"alt="pizza svg"></img>
-            <h1 class="carte"> La carte </h1>
-        </div>
-            
-    </header>
-    <main>
-        <!--laissé de coté a voir si mise en place pour responsive-->
-        <!--<aside class="ancre">-->
-        <!--        <a href="#pizza">Plats</a>-->
-        <!--        <a href="#dessert">Desserts</a>-->
-        <!--        <a href="#boissons">Boissons</a>-->
-                <!--<img class="logoNav" src="../src/logo/logo_pizza.png" alt="logo pizza mamma">-->
-        <!--</aside>-->
+    <?php include("./components/header.php"); ?>
         <div class="menu">
             <div id="pizza">
                 <h2>Les Pizze</h2>
@@ -155,15 +123,6 @@
             </div>    
             </div>
         </div>
-    </main>
-    <footer>
-        <div class="container">
-            <div><a href="presentation.html"><img class="foot" src="../src/footer/presentation.jpg" alt="salle de restaurant"></a><a href="presentation.html">Présentation</a></div>
-            <div><a href="carte.html"><img class="foot" src="../src/footer/menu.jpg" alt="dessin pizza "></a><a href="carte.html">Menu</a></div>
-            <div><a href=""><img class="foot" src="../src/footer/emporter.jpg" alt="vespa italienne"></a><a href="">A emporter</a></div>
-            <div><a href=""><img class="foot" src="../src/footer/photo.jpg" alt="des pizzas"></a><a href="">photos</a></div>
-            <div><a href=""><img  class="foot" src="../src/footer/contacter.jpg" alt="téléphone"></a><a href="">Nous contacter</a></div>
-        </div>
-    </footer>
+    <?php include("./components/footer.php"); ?> 
 </body>
 </html>

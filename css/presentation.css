@@ -1,0 +1,137 @@
+
+/*Declaration des fonts& couleur#####################################################*/
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Barriecito&family=Great+Vibes&family=Italiana&family=Italianno&family=Vesper+Libre&display=swap'); 
+
+h1{
+    font-family: 'Italianno', cursive;
+    font-size:80px;
+}
+
+p{
+    font-family: 'Italianno', cursive;
+    font-size:32px;
+    font-weight:bold;
+    /*background-color:#ff8585;*/
+}
+
+li{
+    font-family: 'Italianno', cursive;
+    list-style:none;
+    
+}
+a:hover{
+    font-weight:bold;
+    color:#ff4646;
+    font-size:32px;
+}
+
+
+a{
+    text-decoration:none;
+    font-family: 'Italiana', cursive;
+    font-size:24px;
+    font-weight:bold;
+    color:black;
+}
+
+
+/*alignement du site #######################################################*/
+body{
+    text-align:center;
+    background-color:#fff5c0;
+}
+
+
+.navbar{
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    flex-direction: row ;
+    
+
+}
+
+
+.container{
+    width:75%;
+    height:75%;
+    display:flex;
+    justify-content:center;
+    flex-direction: row ;
+    /*flex-wrap:wrap;*/
+    align-items:stretch;
+    margin:auto;
+    
+    
+}
+
+.foot{
+    justify-content:center;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+ul{
+    display:flex;
+    justify-content:space-between;
+    flex-direction: row ;
+    /*flex-wrap:wrap;*/
+
+}
+
+.navbar{
+    
+    display:flex;
+    justify-content:center;
+    flex-direction: row ;
+    align-items:stretch;
+    margin:auto;
+}
+
+li{
+        margin:50px 30px 0px 30px;
+}
+
+
+
+.content{
+    display:flex;
+    flex-direction: row ;
+    align-items: center;
+    
+}
+
+.tel{
+    display:flex;
+     flex-direction: row ;
+     justify-content:space-between;
+     align-items:baseline;
+     
+    
+}
+
+/*dimension des images ###################################################### */
+
+
+.logo{
+    width:30%;
+    height:auto;
+    margin:50px 350px 0px 0px;
+
+}
+
+.foot{
+    width:auto;
+    height:100px;
+    padding:4px;
+    overflow:hidden;
+    
+}
+
+.presentation{
+    width:50%;
+    height:auto;
+    margin-left:10px;
+}
+

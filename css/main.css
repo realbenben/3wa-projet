@@ -1,0 +1,110 @@
+
+/*Declaration des fonts& couleur#####################################################*/
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Barriecito&family=Great+Vibes&family=Italiana&family=Italianno&family=Vesper+Libre&display=swap');
+
+h1{
+    font-family: 'Italianno', cursive;
+    font-size:80px;
+
+}
+
+p{
+    font-family: 'Amatic SC', cursive;
+    font-size:28px;
+    font-weight:bold;
+    background-color:#ff8585;
+}
+.horaire{
+    background-color:#ff4646;
+}
+
+a{
+    text-decoration:none;
+    font-family: 'Italiana', cursive;
+    font-size:24px;
+    font-weight:bold;
+    color:black;
+}
+
+a:hover{
+    font-weight:bold;
+    color:#ff4646;
+    font-size:32px;
+}
+
+/*alignement du site #######################################################*/
+body{
+    text-align:center;
+    background-color:#fff5c0;
+}
+
+header{
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    flex-direction: row ;
+    
+
+}
+
+.container{
+    width:75%;
+    height:75%;
+    display:flex;
+    justify-content:center;
+    flex-direction: row ;
+    /*flex-wrap:wrap;*/
+    align-items:stretch;
+    margin:auto;
+    
+}
+
+.foot{
+    justify-content:center;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+
+.walp{
+    display:flex;
+    justify-content:center;
+    flex-wrap:nowrap;
+    align-items:center;
+}
+
+
+/*dimension des images ###################################################### */
+.foot{
+    width:auto;
+    height:auto;
+    padding:4px;
+    overflow:hidden;
+    
+}
+
+.logo{
+    width:15%;
+    height:15%;
+}
+
+
+
+.walp{
+    /*text-align:center;*/
+    background-image: url(../src/walpaper/pizza-fire.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    width:auto;
+    height:auto;
+    
+}
+
+.time{
+    width:25%;
+    height:auto;
+    opacity: 0.80;
+}
+

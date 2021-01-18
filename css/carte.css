@@ -1,0 +1,202 @@
+
+/*Declaration des fonts& couleur#####################################################*/
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Barriecito&family=Great+Vibes&family=Italiana&family=Italianno&family=Vesper+Libre&display=swap');
+
+h1{
+    font-family: 'Italianno', cursive;
+    font-size:78px;
+    margin-top:-10%;
+}
+
+
+h2{
+    font-family: 'Italiana', cursive;
+    font-size:18px;
+    background-color:#ff8585;
+    border-radius:1em;
+}
+
+h3{
+    font-family: 'Italiana', serif;
+    font-size:14px;
+    text-decoration:underline;
+}
+
+p{
+    font-family: 'Italianno', cursive;
+    font-size:24px;
+    font-weight:bold;
+
+}
+
+em{
+    font-family: 'Vesper Libre', serif;
+    font-size:12px;
+    font-weight:bold;
+    
+}
+
+li{
+    font-family: 'Italianno', cursive;
+    list-style:none;
+    
+}
+a:hover{
+    font-weight:bold;
+    color:#ff4646;
+    font-size:32px;
+}
+
+a{
+    text-decoration:none;
+    font-family: 'Italiana', cursive;
+    font-size:24px;
+    font-weight:bold;
+    color:black;
+}
+
+.white{
+    background-color:#f5f4f4;
+}
+
+/*alignement du site #######################################################*/
+body{
+    text-align:center;
+    background-color:#fff5c0;
+}
+
+
+.container{
+    width:75%;
+    height:75%;
+    display:flex;
+    justify-content:center;
+    flex-direction: row ;
+    /*flex-wrap:wrap;*/
+    align-items:stretch;
+    margin:auto;
+    
+    
+}
+
+.foot{
+    justify-content:center;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+ul{
+    display:flex;
+    justify-content:space-between;
+    flex-direction: row ;
+    /*flex-wrap:wrap;*/
+
+}
+
+.navbar{
+    
+    display:flex;
+    justify-content:center;
+    flex-direction: row ;
+    align-items:stretch;
+    margin:auto;
+}
+
+li{
+        margin:50px 30px 0px 30px;
+}
+
+.menu{
+    display:flex;
+    flex-direction: row ;
+     justify-content:space-around;
+     align-items:flex-start;
+}
+
+
+p{
+    margin:-1% 2% -1% 2%;
+}
+
+.tel{
+    display:flex;
+     flex-direction: row ;
+     justify-content:space-between;
+     align-items:baseline;
+     
+    
+}
+
+
+/*dimension des images ###################################################### */
+
+
+.logo{
+    width:30%;
+    height:auto;
+    margin:50px 350px 0px 0px;
+
+}
+
+.foot{
+    width:auto;
+    height:100px;
+    padding:4px;
+    overflow:hidden;
+    
+}
+
+.svg{
+    height:30%;
+    width:auto;
+}
+
+/*animation des menus ###################################################### */
+
+.white:hover{
+    animation: anim1  7s linear;
+    transition-duration: 5000ms;
+}
+
+.title{
+      animation-duration: 5s;
+      animation-name: anim2;
+
+}
+
+@keyframes anim1{
+      0% {
+      transform: scale(1.1);
+      background-color:#ffd56b ;
+     
+  }
+      50% {
+          transform: scale(1.15) ;
+          background-color: #99CC33;
+  }
+
+      75%   {
+          transform: scale(1.10);
+          background-color: #ff8585;
+         
+  }
+      100%{
+        transform: scale(1.00);
+          background-color: #fff5c0;
+          transition-duration: 500ms;
+      }
+}
+
+@keyframes anim2{
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+

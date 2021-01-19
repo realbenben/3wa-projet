@@ -5,9 +5,9 @@
     <title>Pizza à emporter </title>
 </head>
 <body>
-    <?php include("./components/header.php"); ?>
+    <?php include("./components/navbar.php"); ?>
    <h1>Pizza Mamma</h1>
-        <div class="content">
+        <div>
             <article>
                 <p>Situé entre 10 et 15 minutes des gares Lille Flandres et Lille Europe, à deux pas du Palais des Beaux Arts, face aux salles de cinéma de la rue de Béthune, le restaurant Pizza Mamma demeure le lieu de rendez-vous des amoureux de la gastronomie italienne.<p>
                 <p>Son intérieur aménagé  est entièrement muni de hauts lambris en bois de chêne dans un style néo-renaissance peu marqué, aux proportions art déco.<br>
@@ -17,7 +17,7 @@
                 <p>Effectivement, dès 11h30 et jusqu’en fin de soirée , la cuisine s’active pour vous servir ses fameuses pizzas , ses pastas ainsi que ses succulents desserts, Le chef s’applique, ici, à conserver le goût d’une cuisine italienne traditionnelle de qualité qui aurait tendance à disparaître…</p>
                 </p>
             </article>    
-            <img class="presentation" src="../src/presentation/salle_originalS.jpg">
+            <img class="presentation" src="assets/images/presentation/salle_originalS.jpg">
         </div>
     <?php include("./components/footer.php"); ?> 
 </body>

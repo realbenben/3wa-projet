@@ -8,8 +8,8 @@
     <?php include("./components/header.php"); ?>
         <main>
         <p>Bienvenue chez Pizza Mamma, Un lieu ou le gout et la convivialité sont nos priorités!<br> Venez déguster nos pizzas préparées avec soin par un vrai chef italien</p>
-        <div class="walp">
-            <img class="time" src="../src/logo/time2.png" alt="pizza-time"></img>
+        <div class="walpaper">
+            <img class="time" src="assets/images/logo/time2.png" alt="pizza-time"></img>
         </div>
         <div>
             <p class="horaire">Restauration toute la journée, 7 jours sur 7 de 11h30 à 23h (23h30 vendredi et samedi)<br>

@@ -1,0 +1,48 @@
+/*alignement/dimensions des pages #####################################################*/
+.container{
+    width:75%;
+    height:75%;
+    display:flex;
+    justify-content:center;
+    flex-direction: row ;
+    /*flex-wrap:wrap;*/
+    align-items:stretch;é&
+    margin:auto;
+    
+    
+}
+
+
+.walpaper{
+    display:flex;
+    justify-content:center;
+    flex-wrap:nowrap;
+    align-items:center;
+}
+
+.time{
+    width:25%;
+    height:auto;
+    opacity: 0.80;
+}
+
+/*couleur des pages/img #######################################################*/
+body{
+
+    background-color:#fff5c0;
+}
+
+
+.horaire{
+    background-color:#ff4646;
+}
+
+.walpaper{
+    background-image: url(assets/images/walpaper/pizza-fire.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    width:auto;
+    height:auto;
+    
+}

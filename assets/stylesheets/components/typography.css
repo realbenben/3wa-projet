@@ -6,3 +6,25 @@ h1,h2,h3,h4,h5,h6{
     font-family:var(--font-cursive);
     
 }
+
+a{
+    font-weight: var(--font-bold);
+    text-decoration:none;
+}
+
+a:hover{
+    color: var(--color-pink-light);
+}
+
+
+.text-center{
+    text-align: center;    
+}
+
+.text-left{
+        text-align: left;   
+}
+
+.text-right{
+        text-align: right;   
+}

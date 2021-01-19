@@ -5,7 +5,7 @@
     <title>Pizza à emporter </title>
 </head>
 <body>
-    <?php include("./components/header.php"); ?>
+    <?php include("./components/navbar.php"); ?>
         <div class="menu">
             <div id="pizza">
                 <h2>Les Pizze</h2>

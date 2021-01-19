@@ -5,6 +5,8 @@
     --color-pink-light: #ffb396;
     --color-red:#ff4646;
     --color-primary:#ff4646;
+    --color-black:#222831;
+    --color-white:#fafafa;
     /*spacing*/
   --space-1: 2px;
   --space-2: 4px;
@@ -31,3 +33,4 @@
   --font-bold: 700;
   --font-heavy: 900;
 }
+

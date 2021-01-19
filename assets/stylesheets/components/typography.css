@@ -10,12 +10,16 @@ h1,h2,h3,h4,h5,h6{
 a{
     font-weight: var(--font-bold);
     text-decoration:none;
+    font-family:var(--font-sans-serif);
 }
 
 a:hover{
     color: var(--color-pink-light);
 }
 
+.text-xlarge{
+    font-family:var(--font-sans-serif)
+}
 
 .text-center{
     text-align: center;    
@@ -27,4 +31,8 @@ a:hover{
 
 .text-right{
         text-align: right;   
+}
+
+.text-primary{
+    color:var(--color-primary);
 }

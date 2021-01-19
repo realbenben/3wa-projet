@@ -1,6 +1,23 @@
-.logo{
-    width:30%;
-    height:auto;
-    margin:50px 350px 0px 0px;
+.header{
+    display:flex;
+    align-items:center;
+    text-align:center;
+}
+
+.header > div{
+    flex:1;
 
 }
+
+.header-logo{
+    max-width:var(--space-7);
+    max-height:var(--space-7);
+
+}
+.header-title{
+    font-family:var(--font-cursive);
+    color:var(--color-black);
+    font-size:var(--space-6);
+    font-weight:var(--font-bold);
+}
+

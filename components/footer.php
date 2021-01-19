@@ -1,9 +1,8 @@
-<footer>
-  <div class="container">
-    <div><a href="presentation.html"><img class="foot" src="assets/images/footer/presentation.jpg" alt="salle de restaurant"></a><a href="presentation.html">Présentation</a></div>
-    <div><a href="carte.html"><img class="foot" src="assets/images/footer/menu.jpg" alt="dessin pizza "></a><a href="carte.html">Menu</a></div>
-    <div><a href=""><img class="foot" src="assets/images/footer/emporter.jpg" alt="vespa italienne"></a><a href="">A emporter</a></div>
-    <div><a href=""><img class="foot" src="assets/images/footer/photo.jpg" alt="des pizzas"></a><a href="">photos</a></div>
-    <div><a href=""><img  class="foot" src="assets/images/footer/contacter.jpg" alt="téléphone"></a><a href="">Nous contacter</a></div>
-  </div>
+<footer class="footer">
+  <div>
+    <p><strong>Pizza Mamma</strong></p>
+    <p>7jours/7 de 11h à 23h </p>
+    <adress>71 rue de Béthune<br>59100 Lille</adress>
+  </div>  
+
 </footer>

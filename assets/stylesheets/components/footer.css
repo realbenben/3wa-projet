@@ -1,14 +1,6 @@
 .footer{
-    justify-content:center;
-    display:flex;
-    flex-direction: column;
-    
+    padding:var(--space-6);
+    background: var(--color-black);
+    color: var(--color-white);
 }
 
-.footer-image{
-    width:auto;
-    height:100px;
-    padding:4px;
-    overflow:hidden;
-    
-}

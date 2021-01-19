@@ -1,0 +1,31 @@
+:root {
+    /*colors*/
+    --color-primary: #fff5c0;
+    --color-secondary: aqua;
+    --color-bg:#f8f8f8;
+    /*spacing*/
+  --space-1: 2px;
+  --space-2: 4px;
+  --space-3: 8px;
+  --space-4: 16px;
+  --space-5: 32px;
+  --space-6: 64px;
+  --space-7: 128px;
+  
+  /* Breakpoints */
+  --xlarge: 1680px;
+  --large: 1280px;
+  --medium: 980px;
+  --small: 740px;
+  --xsmall: 480px;
+  
+  /* Fonts */
+  
+  --font-cursive: 'Italianno', cursive;
+  --font-sans-serif: 'Montserrat', sans-serif;
+  --font-serif: Georgia, Times, serif;
+  --font-mono: Menlo, Courier, monospace;
+  --font-normal: 500;
+  --font-bold: 700;
+  --font-heavy: 900;
+}

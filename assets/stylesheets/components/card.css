@@ -1,0 +1,14 @@
+.card-team{
+    display: flex;   
+    background: var(--color-white);
+    border-radius: var(--space-6);    
+    overflow: hidden;
+}
+
+.card-team-image{
+    max-height: 230px;
+}
+
+.card-team-content{
+    padding:var(--space-4);    
+}

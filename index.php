@@ -13,8 +13,12 @@
           <p> Venez déguster nos pizzas préparées avec soin par un vrai chef italien</p>
           
           <div class="row">
-              <div class="col">bbbb</div>
-              <div class="col">vqg</div>
+              <div class="col">
+                  <a href="menu.php" class="button">Menu</a>
+              </div>
+              <div class="col">
+                  <a href="contact.php" class="button button-hollow">contact</a>
+              </div>
           </div>
           
         </div>
@@ -23,6 +27,15 @@
         </div>
       </div>
     </main>
+    
+    
+    <div class="section section-pink">
+      <div class="container">
+        <h2 class="text-xlarge">Rencontrez la team</h2>
+        <?php include("./components/team.php"); ?>              
+      </div>
+    </div>
+    
     <?php include("./components/footer.php"); ?>
   </body>
 </html>

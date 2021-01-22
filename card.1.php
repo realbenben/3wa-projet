@@ -205,7 +205,6 @@
           ];
           foreach ($desserts as $dessert) {
           echo '<li>' . $dessert['title'] . ' :  '. $dessert['price'] . ' €' . '</li>';
-          
           }
           ?>
         </ul>
@@ -216,42 +215,42 @@
           <?php
           $coktails =[
           [
-            'id' => 23,
-            'type' => 'coktail',
-            'title' => 'Spritz Aperol',
-            'price' => 6.50,
-              ],
+          'id' => 23,
+          'type' => 'coktail',
+          'title' => 'Spritz Aperol',
+          'price' => 6.50,
+          ],
           [
-            'id' => 24,
-            'type' => 'coktail',
-            'title' => 'Spritz Bitter',
-            'price' => 6.50,
-              ],
+          'id' => 24,
+          'type' => 'coktail',
+          'title' => 'Spritz Bitter',
+          'price' => 6.50,
+          ],
           [
-            'id' => 25,
-            'type' => 'coktail',
-            'title' => 'Spritz Lillet Rosé',
-            'price' => 6.50,
-              ],
+          'id' => 25,
+          'type' => 'coktail',
+          'title' => 'Spritz Lillet Rosé',
+          'price' => 6.50,
+          ],
           [
-            'id' => 26,
-            'type' => 'coktail',
-            'title' => 'Bellini',
-            'price' => 6.50,
-              ],
+          'id' => 26,
+          'type' => 'coktail',
+          'title' => 'Bellini',
+          'price' => 6.50,
+          ],
           [
-            'id' => 27,
-            'type' => 'coktail',
-            'title' => 'Négroni',
-            'price' => 6.50,
-              ],
+          'id' => 27,
+          'type' => 'coktail',
+          'title' => 'Négroni',
+          'price' => 6.50,
+          ],
           [
-            'id' => 28,
-            'type' => 'coktail',
-            'title' => 'Americano',
-            'price' => 7.50,
-              ],
-            
+          'id' => 28,
+          'type' => 'coktail',
+          'title' => 'Americano',
+          'price' => 7.50,
+          ],
+          
           ];
           foreach ($coktails as $coktail) {
           echo '<li>' . $coktail['title'] . ' :  '. $coktail['price'] . ' €' . '</li>';
@@ -260,94 +259,279 @@
         </ul>
       </div>
       <div class="animation">
-        <h2>Les apéritifs</h2>        
+        <h2>Les apéritifs</h2>
         <ul class="boissons">
           <?php
           $aperitifs=[
           [
-            'id' => 29,
-            'type' => 'aperitif',
-            'title' => 'Martini rouge ou blanc',
-            'quantity'=> 5,
-            'price' => 3.50,
-              ],
+          'id' => 29,
+          'type' => 'aperitif',
+          'title' => 'Martini rouge ou blanc',
+          'quantity'=> 5,
+          'price' => 3.50,
+          ],
           [
-            'id' => 30,
-            'type' => 'aperitif',
-            'title' => 'Muscat',
-            'quantity'=> 5,            
-            'price' => 3.5,
-              ],
+          'id' => 30,
+          'type' => 'aperitif',
+          'title' => 'Muscat',
+          'quantity'=> 5,
+          'price' => 3.5,
+          ],
           [
-            'id' => 31,
-            'type' => 'aperitif',
-            'title' => 'Ricard',
-            'quantity'=>4,            
-            'price' => 3.50,
-              ],
+          'id' => 31,
+          'type' => 'aperitif',
+          'title' => 'Ricard',
+          'quantity'=>4,
+          'price' => 3.50,
+          ],
           [
-            'id' => 32,
-            'type' => 'aperitif',
-            'title' => 'Porto rouge ou blanc',
-            'quantity'=>5,            
-            'price' => 3.50,
-              ],
+          'id' => 32,
+          'type' => 'aperitif',
+          'title' => 'Porto rouge ou blanc',
+          'quantity'=>5,
+          'price' => 3.50,
+          ],
           [
-            'id' => 33,
-            'type' => 'aperitif',
-            'title' => 'Ballantines',
-            'quantity'=>4,            
-            'price' => 4.90,
-              ],
+          'id' => 33,
+          'type' => 'aperitif',
+          'title' => 'Ballantines',
+          'quantity'=>4,
+          'price' => 4.90,
+          ],
           [
-            'id' => 34,
-            'type' => 'aperitif',
-            'title' => 'Jack Danie’ls',
-            'quantity'=>4,            
-            'price' => 6.90,
-              ],              
+          'id' => 34,
+          'type' => 'aperitif',
+          'title' => 'Jack Danie’ls',
+          'quantity'=>4,
+          'price' => 6.90,
+          ],
           [
-            'id' => 35,
-            'type' => 'aperitif',
-            'title' => 'Oban',
-            'quantity'=>4,            
-            'price' => 7.90,
-              ],
+          'id' => 35,
+          'type' => 'aperitif',
+          'title' => 'Oban',
+          'quantity'=>4,
+          'price' => 7.90,
+          ],
           [
-            'id' => 36,
-            'type' => 'aperitif',
-            'title' => 'Pisang/ Malibu',
-            'quantity'=>4,            
-            'price' => 4.50,
-              ],
+          'id' => 36,
+          'type' => 'aperitif',
+          'title' => 'Pisang/ Malibu',
+          'quantity'=>4,
+          'price' => 4.50,
+          ],
           [
-            'id' => 37,
-            'type' => 'aperitif',
-            'title' => 'Gin/ Vodka ',
-            'quantity'=>4,            
-            'price' => 4.50,
-              ],
+          'id' => 37,
+          'type' => 'aperitif',
+          'title' => 'Gin/ Vodka ',
+          'quantity'=>4,
+          'price' => 4.50,
+          ],
           [
-            'id' => 38,
-            'type' => 'aperitif',
-            'title' => 'Coupe de Champagne',
-            'quantity'=>8,            
-            'price' => 8.50,
-              ],
-              
+          'id' => 38,
+          'type' => 'aperitif',
+          'title' => 'Coupe de Champagne',
+          'quantity'=>8,
+          'price' => 8.50,
+          ],
+          
           ];
           foreach ($aperitifs as $aperitif) {
           echo '<li>' . $aperitif['title'] . ' :  '. $aperitif['price'] . ' €' . ' /' . $aperitif['quantity'] . ' cl' .  '</li>';
           }
           ?>
         </ul>
-        </div>
+      </div>
       <div class="animation">
+        <h2>les bières</h2>
         <ul class="boissons">
+          <?php
+          $beers = [
+          [
+          'id' => 39,
+          'type' => 'biere',
+          'title' => 'Jupiler',
+          'quantity'=> 25,
+          'price' => 2.90,
+          ],
+          [
+          'id' => 40,
+          'type' => 'biere',
+          'title' => 'Leffe',
+          'quantity'=> 25,
+          'price' => 3.80,
+          ],
+          [
+          'id' => 41,
+          'type' => 'biere',
+          'title' => 'Hoegaarden',
+          'quantity'=> 25,
+          'price' => 3.80,
+          ],
+          [
+          'id' => 42,
+          'type' => 'biere',
+          'title' => 'Leffe Ruby',
+          'quantity'=>25,
+          'price' => 3.90,
+          ],
+          [
+          'id' => 43,
+          'type' => 'biere',
+          'title' => 'Duvel',
+          'quantity'=>33,
+          'price' => 3.80,
+          ],
+          [
+          'id' => 44,
+          'type' => 'biere',
+          'title' => 'Karmeliet',
+          'quantity'=>33,
+          'price' => 3.90,
+          ],
+          ];
+          foreach ($beers as $beer) {
+          echo '<li>' . $beer['title'] . ' :  '. $beer['price'] . ' €' . ' /' . $beer['quantity'] . ' cl' .  '</li>';
+          }
+          ?>
+        </ul>
+      </div>
+      <div class="animation">
+        <h2>Les softs</h2>
+        <ul class="boissons">
+          <?php
+          $softs = [
+          [
+          'id' => 45,
+          'type' => 'soft',
+          'title' => 'Coca-Cola',
+          'quantity'=>33,
+          'price' => 3.30,
+          ],
+          [
+          'id' => 46,
+          'type' => 'soft',
+          'title' => 'Coca-cola light',
+          'quantity'=>33,
+          'price' => 3.30,
+          ],
+          [
+          'id' => 47,
+          'type' => 'soft',
+          'title' => 'Jus de fruits',
+          'quantity'=>2.90,
+          'price' => 25,
+          ],
+          [
+          'id' => 48,
+          'type' => 'soft',
+          'title' => 'Nestea',
+          'quantity'=>33,
+          'price' => 3.30,
+          ],
+          [
+          'id' => 49,
+          'type' => 'soft',
+          'title' => 'Orangina',
+          'quantity'=>25,
+          'price' => 3.30,
+          ],
+          [
+          'id' => 50,
+          'type' => 'soft',
+          'title' => 'Oasis',
+          'quantity'=>33,
+          'price' => 3.30,
+          ],
+          [
+          'id' => 51,
+          'type' => 'soft',
+          'title' => 'Sprite',
+          'quantity'=>33,
+          'price' => 3.30,
+          ],
+          ];
+          foreach ($softs as $soft) {
+          echo '<li>' . $soft['title'] . ' :  '. $soft['price'] . ' €' . ' /' . $soft['quantity'] . ' cl' .  '</li>';
+          }
+          ?>
+        </ul>
+      </div>
+      <div class="animation">
+        <h2>Les eaux</h2>
+        <ul class="boissons">
+          <?php
+          $waters= [
+          [
+          'id' => 52,
+          'type' => 'eau',
+          'title' => 'Evian',
+          'quantity'=>50,
+          'price' => 3.90,
+          ],
+          [
+          'id' => 53,
+          'type' => 'eau',
+          'title' => 'Badoit',
+          'quantity'=>100,
+          'price' => 4.90,
+          ],
+          [
+          'id' => 54,
+          'type' => 'eau',
+          'title' => 'San pellegrino',
+          'quantity'=>100,
+          'price' => 4.90,
+          ],
+          ];
+          foreach ($waters as $water) {
+          echo '<li>' . $water['title'] . ' :  '. $water['price'] . ' €' . ' /' . $water['quantity'] . ' cl' .  '</li>';
+          }
+          ?>
+        </ul>
+      </div>
+      <div class="animation">
+        <h2>Les Boissons Chaudes</h2>
+        <ul class="boissons">
+          <?php
+          $hotDrinks= [
+          [
+          'id' => 55,
+          'type' => 'boisson chaude',
+          'title' => 'Expresso',
+          'price' => 2.00,
+          ],
+          [
+          'id' => 56,
+          'type' => 'boisson chaude',
+          'title' => 'Double expresso',
+          'price' => 2.90,
+          ],
+          [
+          'id' => 57,
+          'type' => 'boisson chaude',
+          'title' => 'Expresso grans cru',
+          'price' => 2.90,
+          ],
+          [
+          'id' => 58,
+          'type' => 'boisson chaude',
+          'title' => 'Thé',
+          'price' => 2.90,
+          ],
+          [
+          'id' => 59,
+          'type' => 'boisson chaude',
+          'title' => 'Cappuccino ou Viennois',
+          'price' => 3.20,
+          ],
+          ];
+          foreach ($hotDrinks as $drink) {
+          echo '<li>' . $drink['title'] . ' :  '. $drink['price'] . ' €' . '</li>';
+          }
+          ?>
           
         </ul>
-        </div>
-      <div class="animation"><ul class="boissons"></ul></div>
+      </div>
       
       
       

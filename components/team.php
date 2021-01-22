@@ -5,9 +5,9 @@
           <?php
 
   $peoples = array(
-    array('name' => 'Rob Hunt', 'skill' => ' pizzaiolo', 'image' => 'chef-1.jpg'),
-    array('name' => 'Alex Brooke', 'skill' => 'Glacier', 'image' => 'chef-2.jpg'),
-    array('name' => 'Andrew Pendrick', 'skill' => 'Sauce master', 'image' => 'chef-3.jpg')
+    array('name' => 'Roberto Halania', 'skill' => ' pizzaiolo', 'image' => 'chef-1.jpg'),
+    array('name' => 'Giovanni Cortano', 'skill' => 'Glacier', 'image' => 'chef-2.jpg'),
+    array('name' => 'Massimo Pendrick', 'skill' => 'Sauce master', 'image' => 'chef-3.jpg')
   );
 
 foreach ($peoples as $person) {

@@ -1,4 +1,4 @@
-.animation-color:hover{
+.animation:hover{
     animation: anim1  7s linear;
     transition-duration: 5000ms;
 }
@@ -12,23 +12,23 @@
 @keyframes anim1{
       0% {
       transform: scale(1.1);
-      background-color:#ffd56b ;
+      background-color:var(--color-pink-light) ;
      
   }
       50% {
           transform: scale(1.15) ;
-          background-color: #99CC33;
+          background-color:var(--color-pink);
   }
 
       75%   {
           transform: scale(1.10);
-          background-color: #ff8585;
+          background-color: var(--color-red);
          
   }
       100%{
         transform: scale(1.00);
-          background-color: #fff5c0;
-          transition-duration: 500ms;
+          background-color:var(--color-yellow);
+          transition-duration: 300ms;
       }
 }
 

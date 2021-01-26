@@ -14,7 +14,7 @@
           
           <div class="row">
               <div class="col">
-                  <a href="menu.php" class="button">Menu</a>
+                  <a href="card.php" class="button">Menu</a>
               </div>
               <div class="col">
                   <a href="contact.php" class="button button-hollow">contact</a>

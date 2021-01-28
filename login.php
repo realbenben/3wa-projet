@@ -24,7 +24,7 @@
                 {
                     
                     $_SESSION['customer'] = $data['email'];
-                    header('Location: card.php');
+                    header('Location: takeAway.php');
                     die();
                 }
                 else{ 

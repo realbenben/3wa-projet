@@ -17,6 +17,10 @@ a:hover{
     color: var(--color-pink-light);
 }
 
+label{
+    font-size:var(--space-4);
+    font-family:var(--font-sans-serif) ;
+}
 
 .italic{
     font-weight: var(--font-italic);

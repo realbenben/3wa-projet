@@ -6,7 +6,7 @@ $connection = dbConnection();
 
 // this page is used to do requests from database to post customer order
 
-$sql = $connection->prepare('SELECT name, price
+$sql = $connection->prepare('SELECT type, name, price, ingredients
                     FROM products
                     ORDER BY id');
                     

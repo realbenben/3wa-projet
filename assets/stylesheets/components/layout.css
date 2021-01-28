@@ -1,5 +1,34 @@
+/*pour le formulaire*/
+
+.form{
+    display:flex;
+    /*text-align: center;*/
+    flex-direction:column;
+    align-items:center;
 
 
+}
+
+form{
+    margin-top:var(--space-5);
+
+    
+}
+
+input{
+    border-radius: var(--space-6);
+    padding: 1em 2em;
+    background-color:var(--color-pink);
+}
+
+.form-group{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:var(--space-3);
+}
+
+/*###########################*/
 .main-content{
     text-align: center;
 }

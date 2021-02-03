@@ -7,7 +7,7 @@
   $peoples = array(
     array('name' => 'Roberto Halania', 'skill' => ' pizzaiolo', 'image' => 'chef-1.jpg'),
     array('name' => 'Giovanni Cortano', 'skill' => 'Glacier', 'image' => 'chef-2.jpg'),
-    array('name' => 'Massimo Pendrick', 'skill' => 'Sauce master', 'image' => 'chef-3.jpg')
+    array('name' => 'Massimo Pandrico', 'skill' => 'Sauce master', 'image' => 'chef-3.jpg')
   );
 
 foreach ($peoples as $person) {

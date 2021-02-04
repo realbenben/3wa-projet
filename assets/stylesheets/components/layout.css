@@ -37,18 +37,66 @@ input{
 }
 /*#################################card.php*/
 
-.flexcard{
-    display:flex;
-    flex-direction:row;
-    align-items:center;
+/*.flex-card{*/
+/*    display:flex;*/
+/*    flex-direction:row;*/
+/*    justify-content:space-around;*/
     
-}
+/*}*/
 
 .carte{
     margin-top:-6%;
 }
 .animation-title{
 text-align: center;
+}
+
+/*#############################Contact*/
+.map{
+    height:400px;
+    width:400px;
+    
+}
+.map-contact{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    
+}
+
+.contact{
+    
+    border:2px solid black;
+    background-color:var(--color-yellow-strong);
+    width:50%;
+    border-radius: 1em;
+    width:50%;
+    height:auto;
+    text-align: center;
+    
+}
+
+.contact>h2{
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+.contact-mail{
+    border:1px solid black;
+    background-color:var(--color-pink-light);
+    width:50%;
+    border-radius: 1em;
+}
+
+.textarea_message{
+    background-color:var(--color-pink);
+    border-radius:1em;
+}
+
+
+.title{
+    padding:30px 0px 30px 0px;
 }
 
 /*###########################*/

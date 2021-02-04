@@ -35,9 +35,21 @@ input{
     align-items:center;
 
 }
+/*#################################card.php*/
 
+.flexcard{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    
+}
 
-
+.carte{
+    margin-top:-6%;
+}
+.animation-title{
+text-align: center;
+}
 
 /*###########################*/
 .main-content{

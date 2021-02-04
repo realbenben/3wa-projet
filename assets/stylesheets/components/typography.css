@@ -22,6 +22,10 @@ label{
     font-family:var(--font-sans-serif) ;
 }
 
+.phone{
+    color:var(--color-white);
+}
+
 .italic{
     font-weight: var(--font-italic);
 

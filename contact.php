@@ -31,19 +31,19 @@
       </div>    
     <div class="form-group">
       <form class="contact-mail form-group" action="https://formspree.io/mdowjnre" method="POST">
-        <div class=>
+        <div class="form-group form">
           <label for="name_field">Votre nom</label>
           <input type="text"  name="name_field">
         </div>
-        <div class=>
+        <div class="form-group form">
           <label for="_replyto">Votre email</label>
           <input type="email" class="_replyto" name="_replyto" >
         </div>
-        <div class=>
-          <label for="textarea_message">Votre message ou demande de réservation</label>
+        <div class="form-group form">
+          <label  for="textarea_message">Votre message ou demande de réservation</label>
           <textarea class="textarea_message" name="textarea_message"></textarea>
         </div>
-        <div class="">
+        <div class="form-group ">
           <button type="submit" class="button button-hollow">envoyer votre message </button>
         </div>
       </form>

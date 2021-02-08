@@ -1,4 +1,12 @@
-/*pour le formulaire*/
+/*############################################about.php*/
+.article{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;    
+}
+
+/*####################################pour le formulaire*/
 
 .form{
     display:flex;
@@ -37,12 +45,12 @@ input{
 }
 /*#################################card.php*/
 
-/*.flex-card{*/
-/*    display:flex;*/
-/*    flex-direction:row;*/
-/*    justify-content:space-around;*/
+.flex-card{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
     
-/*}*/
+}
 
 .carte{
     margin-top:-6%;
@@ -51,6 +59,11 @@ input{
 text-align: center;
 }
 
+li{
+    list-style:none;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
 /*#############################Contact*/
 .map{
     height:400px;
@@ -61,6 +74,7 @@ text-align: center;
     display:flex;
     flex-direction:row;
     justify-content:space-around;
+    align-items:center;
     
 }
 
@@ -92,11 +106,37 @@ text-align: center;
 .textarea_message{
     background-color:var(--color-pink);
     border-radius:1em;
+
 }
 
+.form>label{
+    padding-bottom:3px;
+    padding-top:3px;
+}
 
 .title{
     padding:30px 0px 30px 0px;
+}
+
+
+/*#############################################################gals*/
+.gal-1{
+    margin-right:auto;
+    margin-left:auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    
+    
+
+    
+}
+
+.gal-pics{
+    max-width:50%;
+    max-height:50%;
+    padding-left:5px;
+    padding-right:5px;
 }
 
 /*###########################*/

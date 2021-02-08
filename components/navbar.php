@@ -5,7 +5,8 @@
     array('title' => 'A propos', 'icon' => 'fa-store', 'href' => 'about.php'),
     array('title' => 'Menu', 'icon' => 'fa-pizza-slice', 'href' => 'card.php'),
     array('title' => 'Accès/Contact', 'icon' => 'fa-phone', 'href' => 'contact.php'),
-    array('title' => 'emporter', 'icon' => 'fa-car', 'href' => 'login.php')
+    array('title' => 'emporter', 'icon' => 'fa-car', 'href' => 'login.php'),
+    array('title' => 'gallerie', 'icon' => 'fa-image', 'href' => 'gals.php')
   );
 
 foreach ($navlinks as $link) {

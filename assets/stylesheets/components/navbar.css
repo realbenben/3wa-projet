@@ -1,10 +1,17 @@
 
+.navbar-label{
+    padding-left:6px;
+    padding-right:6px;
+}
+
+
 
 .navbar{
     display:flex;
     flex-direction:row;
     justify-content:space-around;
     list-style-type: none;
+
 
 }
 

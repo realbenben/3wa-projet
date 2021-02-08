@@ -7,7 +7,7 @@
   <body>
     <?php include("./components/header.php"); ?>
     <h1>Pizza Mamma</h1>
-    <div>
+    <div class="article ">
       <article>
         <p>Situé entre 10 et 15 minutes des gares Lille Flandres et Lille Europe, à deux pas du Palais des Beaux Arts, face aux salles de cinéma de la rue de Béthune, le restaurant Pizza Mamma demeure le lieu de rendez-vous des amoureux de la gastronomie italienne.<p>
           <p>Son intérieur aménagé  est entièrement muni de hauts lambris en bois de chêne dans un style néo-renaissance peu marqué, aux proportions art déco.<br>

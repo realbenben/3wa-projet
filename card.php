@@ -13,7 +13,8 @@
         <h1 class="carte"> La carte </h1>
       </div>
       <div class="flex-card">
-        <div class="animation">
+        <div class="food">
+        <div class="animation ">
           <h2>Les Pizze</h2>
           <h3> Les bases rouges : sauce tomate et mozzarella Fior di latte </h3>
           <ul class ="menu">
@@ -57,6 +58,8 @@
             ?>
           </ul>
         </div>
+        </div>
+        <div class="drink">
         <div class="animation">
           <h2>cocktails</h2>
           <ul class="boissons">
@@ -117,6 +120,7 @@
             ?>
           </ul>
         </div>
+      </div>
       </div>
       <div class="section section-pink">
         <div class="container">

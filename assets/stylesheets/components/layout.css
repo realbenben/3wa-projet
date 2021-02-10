@@ -120,24 +120,8 @@ li{
 
 
 /*#############################################################gals*/
-.gal-1{
-    margin-right:auto;
-    margin-left:auto;
-    display:flex;
-    flex-direction:row;
-    justify-content:space-around;
-    
-    
 
-    
-}
 
-.gal-pics{
-    max-width:50%;
-    max-height:50%;
-    padding-left:5px;
-    padding-right:5px;
-}
 
 /*###########################*/
 .main-content{

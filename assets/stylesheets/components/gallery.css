@@ -28,7 +28,7 @@ ul img {
   box-sizing: border-box;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 400px) {
   #thumbnails {
     --columns: 3;
     --gutter: 15px;

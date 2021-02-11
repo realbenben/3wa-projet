@@ -1,6 +1,6 @@
 <?php 
     session_start();
-    require_once 'assets/app_php/connection.php';
+    require_once 'assets/php/connection.php';
 
     if(isset($_POST['email']) && isset($_POST['password']))
     {

@@ -11,7 +11,7 @@
   );
 
 foreach ($peoples as $person) {
-    echo '<div class="col">';
+    echo '<div class="col card">';
       echo '<div class="card-team">';
         echo '<img class="card-team-image" src="assets/images/' . $person['image'] . '">';
         echo '<div class="card-team-content">';

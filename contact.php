@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <?php include("./components/head.php"); ?>
-    <title>Pizza à emporter </title>
+    <title>contact </title>
   </head>
   <body>
     <?php include("./components/header.php"); ?>
@@ -26,9 +26,9 @@
         <p>Carte Bleue, Chèques, Chèques Vacances, Espèces, Eurocard/Mastercard, Titres restaurant, Visa</p>
       </div>
     </div>
-      <div class="title">
-              <h1 class="text-xlarge text-center">Vous désirez nous<span class="text-primary"> contacter ?</span> Remplissez le formulaire ci dessous</h1>
-      </div>    
+    <div class="title">
+      <h1 class="text-xlarge text-center">Vous désirez nous<span class="text-primary"> contacter ?</span> Remplissez le formulaire ci dessous</h1>
+    </div>
     <div class="form-group">
       <form class="contact-mail form-group" action="https://formspree.io/mdowjnre" method="POST">
         <div class="form-group form">

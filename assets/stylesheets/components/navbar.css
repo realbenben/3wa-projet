@@ -23,3 +23,16 @@
 .fas{
     float:left;
 }
+
+
+@media  screen and (max-width: 400px)
+{
+    .navbar-label{
+        padding-left:2px;
+        padding-right:2px;
+    }
+    
+    .navbar{
+        padding-left:0px;
+    }
+}

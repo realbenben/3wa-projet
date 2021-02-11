@@ -45,3 +45,32 @@
   }
 }
 
+/*sert uniquement a enlever le zoom de l'anim/ remove scale from anim*/
+
+@media  screen and (max-width: 400px)
+{
+
+  @keyframes anim1{
+      0% {
+          background-color:var(--color-pink-light);
+     
+  }
+      50% {
+          background-color:var(--color-pink);
+  }
+
+      75%   {
+          background-color: var(--color-red);
+         
+  }
+      100%{
+          background-color:var(--color-yellow);
+          transition-duration: 100ms;
+      }
+}
+
+  
+}
+
+
+

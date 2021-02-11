@@ -4,3 +4,11 @@
     color: var(--color-white);
 }
 
+
+@media  screen and (max-width: 400px)
+{
+.footer{
+    text-align: center;
+}
+
+}

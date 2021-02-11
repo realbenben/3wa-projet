@@ -1,6 +1,6 @@
 <?php
 
-require 'assets/app_php/connection.php';
+require 'assets/php/connection.php';
 
 if (empty($_POST)) {
     // Si $_POST est vide => aucune donnée soumise (on vient d'arriver sur la page)

@@ -28,11 +28,22 @@
 @media  screen and (max-width: 400px)
 {
     .navbar-label{
-        padding-left:2px;
-        padding-right:2px;
+        padding-left:var(--space-1);
+        padding-right:var(--space-1);
+        margin:auto;
     }
     
     .navbar{
-        padding-left:0px;
+    flex-direction:column;
+    align-items:center;    
+    justify-content:space-between;        
+    padding-left:var(--space-2);
     }
+    
+    .navbar-link{
+    display:flex;
+    flex-direction:column;
+
+    }
+ 
 }

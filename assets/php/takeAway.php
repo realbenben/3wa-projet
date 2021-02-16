@@ -1,12 +1,12 @@
 <?php
 
 // call the db connection
-require 'connection.php';
-$connection = dbConnection();
+    session_start();
+    require_once 'connection.php';
 
 // this page is used to do requests from database to post customer order
-
-$sql = $connection->prepare('SELECT type, name, price, ingredients
+$db = dbConnection(); 
+$sql = $db->prepare('SELECT type, name, price, ingredients
                     FROM products
                     ORDER BY id');
                     
@@ -15,7 +15,14 @@ $sql->execute();
 
 // 4. Récupérer les résultats de la requête exécutée et les stocker dans une variable
 $products = $sql->fetchAll();
+    $template = 'takeAway';
 
-var_dump($products);
+    var_dump($products);
+
+
+foreach ($products as $product) {
+    
+     echo '<li>' . $product['name'] . ' ' . $product['price'] . '€ ' . '</li>';
+};
 
 ?>

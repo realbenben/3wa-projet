@@ -1,7 +1,7 @@
 <!--LE TEMPLATE DE DEPART DU SITE/TEMPLATE BASE FROM THE WEBSITE-->
 
 <!doctype html>
-<html lang="en">
+<html lang="fr">
   <head>
     <?php include("./components/head.php"); ?>
     <title>Pizza à emporter </title>
@@ -24,7 +24,7 @@
           </div>
         </div>
         <div class="col">
-          <img src="assets/images/welcome-pizza.jpg" alt="pizza Mamma chef pizza"></img>
+          <img src="assets/images/welcome-pizza.png" alt="pizza Mamma chef pizza"></img>
         </div>
       </div>
     </main>

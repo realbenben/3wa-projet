@@ -57,6 +57,15 @@ input{
 }
 
 
+/*##############################pour le select du template takeAway.php*/
+select{
+    border-radius: var(--space-6);
+    padding: 1em 2em;
+    background-color:var(--color-pink);
+    padding-left:var(--space-6);
+}
+
+
 /*###################################Le responsive des formulaires*/
 
 @media  screen and (max-width: 400px)

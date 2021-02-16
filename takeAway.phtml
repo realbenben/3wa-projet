@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <?php include("./components/head.php"); ?>
+    <title>take away</title>
+  </head>
+  <body>
+    <?php include("./components/header.php"); ?>
+    <main class="section text-center">
+      <h1 class="text-xlarge text-center">Pizza et boisson <span class="text-primary">à emporter</span></h1>
+      <div class="form-group text-center">
+        <form action="assets/php/takeAway.php" method="post">
+          <div class="food-product section text-center">
+            <label class="text-xlarge" for="food">choisissez votre <span class="text-primary">pizza</span></label>
+            <select name ="foods" id="foods">
+              <optgroup label="Pizzas">
+                <?php foreach ($products as $product): ?>
+                <option><?= $product['name'] ?></option>
+                <?php endforeach ?>
+              </optgroup>
+            </select>
+          </div>
+          <div class="drink-product section text-center">
+            <label class="text-xlarge" for="drink">choisissez votre<span class="text-primary"> boisson</span></label>
+            <select name="drink" id="drink">
+              <optgroup label="drink">
+                <option><?php ?></option>
+              </optgroup>
+            </select>
+          </div>
+          <button type="submit" class="button takeAway">commander</button>
+        </form>
+      </div>
+    </main>
+    <div class="section section-pink">
+      <div class="container">
+        <h2 class="text-xlarge">Rencontrez la team</h2>
+        <?php include("./components/team.php"); ?>
+      </div>
+    </div>
+    <?php include("./components/footer.php"); ?>
+  </body>
+</html>

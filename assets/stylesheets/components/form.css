@@ -68,7 +68,7 @@ select{
 
 /*###################################Le responsive des formulaires*/
 
-@media  screen and (max-width: 400px)
+@media  screen and (max-width: 420px)
 {
     
 /*##############################pour le formulaire du template contact.php*/

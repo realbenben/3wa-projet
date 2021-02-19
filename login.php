@@ -1,7 +1,7 @@
 <?php 
     session_start();
     require_once 'assets/php/connection.php';
-
+    // verifie si le champ mail et mdp sont bien rentrés / check if email and pwd are entered
     if(isset($_POST['email']) && isset($_POST['password']))
     {
         $email = htmlspecialchars($_POST['email']);
@@ -14,25 +14,26 @@
         
         if(!empty($data))
         {
+            // on verifie le password / pssword check
+            if (password_verify($_POST['password'], $data['password']))
+
+            {
                 
-                if($password ==$data['password'])
-                {
-                    
-                    $_SESSION['customer'] = $data['email'];
-                    header('Location: takeAway.phtml');
-                    die();
-                }
-                else{ 
-                    $pwderror = 'password erronée';
-
-                }
+                $_SESSION['customer'] = $data['email'];
+                header('Location: takeAway.phtml');
+                die();
             }
-            
             else{ 
-                $mailerror = 'mail erronée';
+                $pwderror = 'password erronée';
 
             }
+        }
         
+        else{ 
+            $mailerror = 'mail erronée';
+
+        }
+    
         
         
         

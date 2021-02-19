@@ -1,7 +1,6 @@
 <div class="container">
     <div class="row">
-        
-        
+      
           <?php
 
   $peoples = array(
@@ -22,8 +21,6 @@ foreach ($peoples as $person) {
     echo '</div>';
   }
   ?>
-      
-        
         
     </div>
 </div>

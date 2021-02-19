@@ -31,7 +31,6 @@ if (empty($_POST)) {
             $_POST['pseudo'],
             $_POST['email'],
             password_hash($_POST['password'], PASSWORD_BCRYPT),
-            // $_POST['password'],
         ]);
         
         header('Location:login.php');

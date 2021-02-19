@@ -6,7 +6,7 @@
 ## Tooling
 
 - pages generated with PHP 
-- payment with stripe
+- email form done with formspree
 - 
 
 ## Getting started
@@ -39,4 +39,16 @@ diagram of database added in : bp_projet
 ## javascript
 - only use for the gallery of gals.php 
 - files in bp_projet/assets/javascripts
-- 
+
+## php 
+-used for login and register 
+- you can create a new user or use :
+- user: test59 /email: test59@test.fr / mdp: test59
+
+
+#probleme durant le projet.
+
+Concernant le template takeAway.phtml, je n'est pas reussi a lier la base de donnée à la commande,
+cette appli n'étant pas fonctionnel, j'ai opté pour un formulaire 
+mail de commande qui est certes moin ergonomique mais celui ci est fonctionnel.
+De ce fait la page redirect.php ne m'est plus utile, du coup je l'ai mis dans un dossier nommée trash. 

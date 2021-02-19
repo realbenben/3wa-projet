@@ -2,7 +2,6 @@
 @import "../../node_modules/normalize.css/normalize.css";
 
 @import "variables.css";
-
 @import "components/navbar.css";
 @import "components/layout.css";
 @import "components/header.css";

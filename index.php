@@ -10,8 +10,8 @@
     <?php include("./components/header.php"); ?>
     <main class="container">
       <div class="row content-index">
-        <div class="col">
-          <h1 class="text-xlarge"><span class="text-primary">chez Pizza Mamma</span>, le gout et la convivialité sont nos priorités!</h1>
+        <div class="col ">
+          <h1 class="text-xlarge section"><span class="text-primary">chez Pizza Mamma</span>, le gout et la convivialité sont nos priorités!</h1>
           <p> Venez déguster nos pizzas préparées avec soin par un vrai chef italien</p>
           
           <div class="row">
@@ -24,7 +24,7 @@
           </div>
         </div>
         <div class="col">
-          <img src="assets/images/welcome-pizza.png" alt="pizza Mamma chef pizza"></img>
+          <img src="assets/images/welcome-pizza.jpg" alt="pizza Mamma chef pizza"></img>
         </div>
       </div>
     </main>

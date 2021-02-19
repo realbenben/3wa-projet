@@ -13,7 +13,7 @@
     padding:var(--space-4);    
 }
 
-@media  screen and (max-width: 400px)
+@media  screen and (max-width: 420px)
 {
     .card{
     display:flex;

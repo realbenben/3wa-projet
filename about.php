@@ -16,16 +16,16 @@
             <p>Plus qu’un restaurant, d’ailleurs, puisque il se transforme en salon de thé tous les après-midi mais la carte des desserts du restaurant n’en reste pas moins accessible tout au long de la journée.</p>
             
             <p>Effectivement, dès 11h30 et jusqu’en fin de soirée , la cuisine s’active pour vous servir ses fameuses pizzas , ses pastas ainsi que ses succulents desserts, Le chef s’applique, ici, à conserver le goût d’une cuisine italienne traditionnelle de qualité qui aurait tendance à disparaître…</p>
-        </article>
-        <img class="presentation" src="assets/images/presentation/salle_originalS.jpg">
+          </article>
+          <img class="presentation" src="assets/images/presentation/salle_originalS.jpg">
+        </div>
+      </main>
+      <div class="section section-pink">
+        <div class="container team">
+          <h2 class="text-xlarge">Rencontrez la team</h2>
+          <?php include("./components/team.php"); ?>
+        </div>
       </div>
-    </main>
-    <div class="section section-pink">
-      <div class="container team">
-        <h2 class="text-xlarge">Rencontrez la team</h2>
-        <?php include("./components/team.php"); ?>
-      </div>
-    </div>
-    <?php include("./components/footer.php"); ?>
-  </body>
-</html>
+      <?php include("./components/footer.php"); ?>
+    </body>
+  </html>

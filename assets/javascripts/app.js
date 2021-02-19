@@ -7,6 +7,7 @@ const toggle = element => {
   element.classList.toggle("hidden");
   return element;
 };
+// creer la gallerie
 
 const list = document.createElement("ul");
 const galleryElement = document.getElementById("gallery");
@@ -108,6 +109,8 @@ const animate = async index => {
     Object.values(animations).forEach(keyframes => keyframes.reverse());
 
   const bounce = innerWidth < 450 ? ".08" : ".02";
+  
+// lance l'animation
 
   requestAnimationFrame(() => {
     toggle(thumbnail);

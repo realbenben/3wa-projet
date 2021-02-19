@@ -20,6 +20,11 @@
     
 }
 
+.food ,.drink{
+    text-align: center;
+
+}
+
 .carte{
     margin-top:-6%;
 }
@@ -71,13 +76,27 @@ li{
 }
 
 
-/*#############################################################gals*/
+/*#############################################################takeAway.php*/
+.food-product , .drink-product{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:baseline;  
+}
 
 
-
+.label{
+    padding-right:var(--space-4);
+}
 /*###########################*/
 .main-content{
     text-align: center;
+  
+}
+
+.formspree{
+     width:70%;
+     height:auto;
 }
 
 

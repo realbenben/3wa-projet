@@ -47,7 +47,7 @@
 
 /*sert uniquement a enlever le zoom de l'anim/ remove scale from anim*/
 
-@media  screen and (max-width: 400px)
+@media  screen and (max-width: 420px)
 {
 
   @keyframes anim1{

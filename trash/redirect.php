@@ -10,7 +10,7 @@
     <main class="container">
       <div class="register-content">
         <div class="section text-center">
-          <h1 class="text-xlarge"><span class="text-primary">Super !</span>, votre commande est enregistrée</h1>
+          <h1 class="text-xlarge"><span class="text-primary">Mammamia !</span>, votre commande est enregistrée</h1>
           <p><span class="text-primary"><a  href="./index.php">Cliquez ici</a></span> pour être etre redirigé sur la page d'accueil. </p>
         </div>
         <div class="section text-center">
